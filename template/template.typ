@@ -35,7 +35,7 @@
   set par(justify: true) //make paragraph justified
 
 
-  //TODO: heading style https://typst.app/docs/reference/styling/#show-rules
+  //TODO: heading styles? https://typst.app/docs/reference/styling/#show-rules
 
   //render title page
   titlepage(title: title, author: author, logo: logo)
