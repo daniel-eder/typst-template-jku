@@ -15,8 +15,12 @@
 = Introduction
 #lorem(60)
 
+Also see #cite(<latex2e>, supplement: "p. 7")
+
 == In this paper
 #lorem(20)
+
+Also see @latex:companion[p. 7]
 
 === Contributions
 #lorem(40)
@@ -51,6 +55,4 @@
 
 // Bibliography section
 #pagebreak(weak: true)
-#set page(header: [])
-= Bibliography
-#lorem(30)
+#bibliography("literature.bib", style: "./oscola-no-ibid.csl", title: [Bibliography])
