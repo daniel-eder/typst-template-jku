@@ -6,7 +6,7 @@
     // Title page.
   v(0.25fr) //vertical space, fr = fraction
   align(center)[
-    #text(2em, weight: 700, title)
+    #text(size: 2em, weight: 700, title)
   ]
 
   // Author information.
@@ -33,4 +33,6 @@
   } else {
     v(0.75fr)
   }
+
+  pagebreak()
 }

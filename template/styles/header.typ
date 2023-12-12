@@ -25,7 +25,7 @@
   return false
 }
 
-#let getHeader() = {
+#let header() = {
   locate(loc => {
     // Find if there is a level 1 heading on the current page
     let nextMainHeading = query(selector(heading).after(loc), loc).find(headIt => {
