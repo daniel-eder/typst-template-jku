@@ -55,4 +55,8 @@ Also see @latex:companion[p. 7]
 
 // Bibliography section
 #pagebreak(weak: true)
+//consider disabling the header for the bibliography, but for multi page ones it should probably be enabled
+// #set page(
+//     header: none
+//   )
 #bibliography("literature.bib", style: "./oscola-no-ibid.csl", title: [Bibliography])
