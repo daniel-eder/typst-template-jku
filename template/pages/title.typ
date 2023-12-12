@@ -3,6 +3,8 @@
   author: (),
   logo: none,
 ) = {
+
+  //TODO: restyle
     // Title page.
   v(0.25fr) //vertical space, fr = fraction
   align(center)[
@@ -33,6 +35,4 @@
   } else {
     v(0.75fr)
   }
-
-  pagebreak()
 }

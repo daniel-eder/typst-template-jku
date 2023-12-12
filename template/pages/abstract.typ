@@ -1,6 +1,7 @@
 #let abstract(
   abstract: [],
 ) = {
+  counter(page).update(0)
   set page(numbering: "i", number-align: center)
 
   //add centered heading
@@ -15,7 +16,5 @@
 
   abstract
 
-  //TODO: do we need this counter update?
   // counter(page).update(1)
-  pagebreak()
 }
