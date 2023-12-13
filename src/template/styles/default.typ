@@ -19,5 +19,17 @@
   set heading(numbering: "1.1") //set heading numbering
   set par(justify: true) //make paragraph justified
 
+  //header font sizes
+  //for level 1 also add spacing
+  show heading.where(level: 1): it => [
+      #set text(size: 24pt)
+      #v(3.5cm)
+      #par(first-line-indent: 0pt)[#it.body]
+      #v(1.5cm)
+  ]
+
+  show heading.where(level: 2): set text(size: 18pt)
+  show heading.where(level: 3): set text(size: 14pt)
+
   it
 }
