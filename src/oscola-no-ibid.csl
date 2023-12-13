@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2023 Sebastian Karcher
+
+SPDX-License-Identifier: CC-BY-SA-3.0
+-->
+
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="never" default-locale="en-GB">
   <info>
     <title>OSCOLA (Oxford University Standard for Citation of Legal Authorities) (no Ibid.)</title>

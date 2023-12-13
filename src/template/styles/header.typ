@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2023 Daniel Eder
+//
+// SPDX-License-Identifier: Apache-2.0
+
 #let buildMainHeader(mainHeadingContent) = {
   [
     #align(center, smallcaps(mainHeadingContent)) 

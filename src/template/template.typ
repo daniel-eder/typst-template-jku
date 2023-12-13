@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2023 Daniel Eder
+//
+// SPDX-License-Identifier: Apache-2.0
+
 #import "./styles/default.typ": default as defaultstyle
 #import "./styles/content.typ": content as contentstyle
 #import "./pages/title.typ": title as titlepage
