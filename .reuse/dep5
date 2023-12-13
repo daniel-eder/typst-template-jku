@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: typst-template-jku
+Upstream-Contact: Daniel Eder <danieleder@outlook.at>
+Source: https://github.com/daniel-eder/typst-template-jku
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
+
+Files: .vscode/*
+Copyright: 2023 Daniel Eder
+License: CC0-1.0
