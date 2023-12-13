@@ -3,12 +3,28 @@
 // SPDX-License-Identifier: Apache-2.0
 
 #let title(
-  title: "",
-  author: (),
-  logo: none,
+  title,
+  subtitle,
+  author, 
+  department,
+  first_supervisor,
+  second_supervisor,
+  assistant_supervisor,
+  submission_date, 
+  thesis_type,
+  programme_type,
+  programme,
 ) = {
 
-  //TODO: restyle
+   //TODO: restyle
+  // JOHANNES KEPLER
+  // UNIVERSITY LINZ
+  // Altenberger Straße 69
+  // 4040 Linz, Austria
+  // jku.at
+
+
+
     // Title page.
   v(0.25fr) //vertical space, fr = fraction
   align(center)[
@@ -22,21 +38,9 @@
       columns: (1fr),
       gutter: 1em,
       align(center)[
-        *#author.name* \
-        #author.email \
-        #author.affiliation \
-        #author.postal \
-        #author.phone
+        *#author* \
       ],
     ),
   )
 
-  // Logo
-  if logo != none {
-    v(0.25fr)
-    align(center, image(logo, width: 26%))
-    v(0.50fr)
-  } else {
-    v(0.75fr)
-  }
 }

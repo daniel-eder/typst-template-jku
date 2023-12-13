@@ -2,18 +2,26 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
+#import "./template/definitions/thesis_types.typ": thesis_types
+#import "./template/definitions/programme_types.typ": programme_types
+#import "./template/definitions/programmes.typ": programmes
 #import "./template/template.typ": project
 
 #show: project.with(
-  title: "The Magical Green Bean 😎",
-  author: (
-    name: "Jacopo Zagoli", 
-    email: "jacopo@zagoli.com", 
-    affiliation: "University of Studies", 
-    postal: "Via dei gigli, 18/b", 
-    phone: "3402203300"
-    ),
-  abstract: lorem(59)
+  title: "<Title>",
+  subtitle: "<Subtitle>", //optional - you can supply "none" or remove this line
+  author: "<Firstname> <Lastname>", 
+  department: "<The Department>",
+  first_supervisor: "<Professor's Name>",
+  second_supervisor: "<Professor's Name>", //optional - you can supply "none" or remove this line
+  assistant_supervisor: "<Assistant's Name>", //optional - you can supply "none" or remove this line
+  submission_date: "<Month> <Year>", //For Information: Month and year of submission to Examination and Recognition Services
+  thesis_type: thesis_types.doctorate,
+  programme_type: programme_types.doctorate,
+  programme: programmes.law,
+  abstract: lorem(59),
+  acknowledgements: lorem(59),
+  dedication: lorem(59)
 )
 
 = Introduction
