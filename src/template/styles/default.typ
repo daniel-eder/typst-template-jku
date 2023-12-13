@@ -12,7 +12,7 @@
   )
   set text(
     size: 12pt,
-    font: "TeX Gyre Bonum",
+    font: "linux libertine", //linux libertine is the default typst fonts
     lang: "en"
   )
   set heading(numbering: "1.1") //set heading numbering
