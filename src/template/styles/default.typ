@@ -5,7 +5,6 @@
 #let default(it) = {
    set page(
     paper: "a4", 
-   //TODO: find good margin
     margin: (left: 30mm, right: 30mm, top: 40mm, bottom: 40mm),
     header-ascent: 1cm, // The amount the header is raised into the top margin.
     footer-descent: 0.75cm, //The amount the footer is lowered into the bottom margin.
