@@ -18,7 +18,7 @@
   programme,
 ) = {
 
- v(0.20fr)
+ v(0.15fr)
   
   //render title, and slighty smaller the subtitle
   align(center)[
@@ -35,7 +35,7 @@
     //now the author
     #text(size: 16pt)[#author] \
 
-    #v(2cm)
+    #v(1.5cm)
 
     //thesis details
     #text(size: 15pt)[#thesis_type] \
@@ -54,7 +54,7 @@
     Assistant Supervisor: #assistant_supervisor \
 
     //submission date
-    #v(2cm)
+    #v(1.5cm)
     #submission_date
 
     //copyright notice
