@@ -8,15 +8,17 @@
 #import "./template/template.typ": project
 
 #show: project.with(
-  title: "<Title>",
-  subtitle: "<Subtitle>", //optional - you can supply "none" or remove this line
+  title: "<A fitting Title>",
+  subtitle: "<And a good Subtitle>", //optional - you can supply "none" or remove this line
   author: "<Firstname> <Lastname>", 
   department: "<The Department>",
   first_supervisor: "<Professor's Name>",
   second_supervisor: "<Professor's Name>", //optional - you can supply "none" or remove this line
   assistant_supervisor: "<Assistant's Name>", //optional - you can supply "none" or remove this line
-  submission_date: "<Month> <Year>", //For Information: Month and year of submission to Examination and Recognition Services
+  submission_date: "<Month> <Year>", //For Information: Year of submission to Examination and Recognition Services
+  copyright_year: "<Year>",
   thesis_type: thesis_types.doctorate,
+  degree: "<Degree>",
   programme_type: programme_types.doctorate,
   programme: programmes.law,
   abstract: lorem(59),
