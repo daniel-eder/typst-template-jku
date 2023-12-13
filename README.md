@@ -29,7 +29,13 @@ To change this:
 4. navigate to the bottom and finde `#bibliography("literature.bib", style: "./oscola-no-ibid.csl", title: [Bibliography])`
 5. change the style parameter to `style: "./<my-style>.csl"` (of course, replace `<my-style>` with the name of the file you downloaded) 
 
-### New page for level 1 headings (chapters)
+### Style changes 
+
+Most style changes for can be made by editing `./src/template/styles/default.typ`.
+The other files in the `./src/template/styles` folder may also be of interest.
+`./src/template/styles/content.typ` allows to make style changes that only affect content pages but not the pages up to the table of contents.
+
+#### New page for level 1 headings (chapters)
 
 By default each chapter starts on a new page.
 To change this 
@@ -37,7 +43,7 @@ To change this
 2. find `show heading.where(level: 1): it => [` 
 3. and in that block remove (or comment out) `#pagebreak(weak: true)`
 
-### Large vertical space before level 1 headings (chapters)
+#### Large vertical space before level 1 headings (chapters)
 
 By default each chapter heading has a large vertical space before it. 
 To change this
