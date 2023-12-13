@@ -26,46 +26,39 @@
   dedication: lorem(59)
 )
 
-= Introduction
+= A level 1 heading
 #lorem(60)
 
 Also see #cite(<latex2e>, supplement: "p. 7")
 
-== In this paper
+== A level 2 heading
 #lorem(20)
 
 Also see @latex:companion[p. 7]
 
-=== Contributions
+=== A level 3 heading
 #lorem(40)
 #parbreak()
 #lorem(30)
 
-== Related Work
+== More heading
 #lorem(500)
 #lorem(500)
 
-== More related work
+== And even more
 #lorem(100)
-// #figure(
-//   image("Business.jpg", width: 70%),
-//   caption: "Serious Business."
-// )
 
-= A New Life
+A list:
+- list 1 
+- list 2
+
+= Another chapter
 #lorem(700)
 
-= A New World
+= One more chapter
 #lorem(20)
 #parbreak()
 #lorem(500)
-
-== Check out the Headers
-#lorem(150)
-#lorem(150)
-
-=== Do you like them?
-#lorem(300)
 
 // Bibliography section
 #pagebreak(weak: true)

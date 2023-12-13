@@ -22,9 +22,11 @@
   //header font sizes
   //for level 1 also add spacing
   show heading.where(level: 1): it => [
+      //we want a new page for each chapter
+      #pagebreak(weak: true)
       #set text(size: 24pt)
       #v(3.5cm)
-      #par(first-line-indent: 0pt)[#it.body]
+      #par(first-line-indent: 0pt)[#it]
       #v(1.5cm)
   ]
 
