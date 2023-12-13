@@ -4,12 +4,12 @@
 
 #import "../styles/pre_content_heading.typ": pre_content_heading
 
-#let abstract(
-  abstract,
+#let dedication(
+  dedication,
 ) = {
   set page(numbering: "i", number-align: center)
 
-  pre_content_heading([Abstract])
+  pre_content_heading([Dedication])
 
-  abstract
+  dedication
 }
