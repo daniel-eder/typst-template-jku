@@ -1,0 +1,16 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+            "nvarner.typst-lsp",
+            "mgt19937.typst-preview",
+            "calebfiggers.typst-companion"
+    ]
+      }
+    },
+    "features": {
+        "ghcr.io/devcontainers-contrib/features/typst:1": {"version": "v0.10.0"}
+    },
+    "_comment": "for typst version latest currently uses a version from march. It seems the gh-release feature used by typst for installation is caching somehow."
+  }
