@@ -50,8 +50,16 @@
     //supervisors
     #v(1.5cm)
     Supervisor: #first_supervisor \
-    Second Supervisor: #second_supervisor \
-    Assistant Supervisor: #assistant_supervisor \
+    #{
+      if(second_supervisor != none){
+         [Second Supervisor: #second_supervisor \ ]
+      }
+    }
+    #{
+      if(assistant_supervisor != none){
+        [Assistant Supervisor: #assistant_supervisor \ ]
+      }
+    }
 
     //submission date
     #v(1.5cm)
@@ -59,7 +67,11 @@
 
     //copyright notice
     #v(1cm)
-    #sym.copyright #author #copyright_year \
+    #{
+      if(copyright_year != none){
+         [#sym.copyright #author #copyright_year]
+      }
+    }
 
   ]
 }

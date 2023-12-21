@@ -22,7 +22,7 @@
   second_supervisor: none, //optional
   assistant_supervisor: none, //optional
   submission_date: "<Month> <Year>", //For Information: Year of submission to Examination and Recognition Services
-  copyright_year: "<Year>",
+  copyright_year: none,
   thesis_type: thesis_types.doctorate,
   degree: "<Degree>",
   programme_type: programme_types.doctorate,

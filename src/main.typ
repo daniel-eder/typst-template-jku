@@ -16,7 +16,7 @@
   second_supervisor: "<Professor's Name>", //optional - you can supply "none" or remove this line
   assistant_supervisor: "<Assistant's Name>", //optional - you can supply "none" or remove this line
   submission_date: "<Month> <Year>", //For Information: Year of submission to Examination and Recognition Services
-  copyright_year: "<Year>",
+  copyright_year: "<Year>", //optional - you can supply "none" or remove this line, in which case no copyright statement will be shown
   thesis_type: thesis_types.doctorate,
   degree: "<Degree>",
   programme_type: programme_types.doctorate,
